@@ -1,10 +1,5 @@
 // Name of author(s) : DEEPIT CHANDGOTHIA
-// Assignment Name: CAESAR CIPHER ASSIGNMENT 1
-// DUE : 02/09/2022
-// Written/online sources used: Looked at some examples of caesar cipher off the internet
-// Help obtained: Friend helped with testing
-// I confirm that the above list of sources is complete AND that
-// I have not talked to anyone else (e.g., CSC 207 students) about the solution to this problem.
+// Project: CAESAR CIPHER ASSIGNMENT 1
 
 // CAESAR CIPHER 
 
