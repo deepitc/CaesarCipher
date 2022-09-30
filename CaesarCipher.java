@@ -12,16 +12,16 @@ public class CaesarCipher {
 
     public static int charToCode(char letter) {
         int lower_base = (int) 'a';
-        int ascii_value = (int) letter;   // get the ascii value of the character
-        return ascii_value - lower_base;  // get the offset from 'a'
+        int ascii_value = (int) letter; // get the ascii value of the character
+        return ascii_value - lower_base; // get the offset from 'a'
     }
 
     public static char codeToChar(int value) {
         int base = (int) 'a';
         return (char) (value + base);
     }
- 
-    public static int  modulo(int shifted_letter) {
+
+    public static int modulo(int shifted_letter) {
         int normalized;
         if (shifted_letter < 0) {
             // Negative
@@ -34,7 +34,7 @@ public class CaesarCipher {
         }
 
         return normalized;
-        
+
     }
 
     public static char encrypt(char letter, int num) {
@@ -49,7 +49,7 @@ public class CaesarCipher {
 
         // return the value to a character, which is returned
         return codeToChar(new_value);
-        
+
     }
 
     public static char decrypt(char ch, int n) {
